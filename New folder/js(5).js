@@ -1,0 +1,4 @@
+alert(null || 2 || undefined);// 2 radgan null=false da shemdegi aris 2 amitom datovebs ors da agar ganixilacs undefineds
+alert(1 && null && 2); // null radgan && am shemtxvevashi yvela piiroba unda shesruldes anu unda iyos chesmariti da radgan null fallsia datova null
+alert(null || 2 && 3 || 4); // 3 radgan null an 2 dan darcheboda 2 shemdeg 2 da 3 an 4 darcheboda 3 radgan pirvelive cheshmariti rcheba da bolos 2 da 3 dan darcheboda 3 radgan bolo cheshmarti gvbrundeba radgan && gvaqvs
+alert(!1 && !2 || 3); // 3 radgan !1 da !2 orive aris false da bolos false an 3 anu false an true da rcheba true
